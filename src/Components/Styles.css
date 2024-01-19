@@ -1,0 +1,30 @@
+.container {
+    background: url('../Components/Images/coverpic.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.subContainer {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    padding: 5rem 4rem;
+    width: 53%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button {
+    background-color: #A08A8D;
+    border: none;
+    padding: 1rem;
+    color: white;
+
+}
+h1{
+    font-size: 40px;
+}
